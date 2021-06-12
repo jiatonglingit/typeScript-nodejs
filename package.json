@@ -1,0 +1,28 @@
+{
+    "name": "typeScript-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node out/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jiatonglingit/typeScript-nodejs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jiatonglingit/typeScript-nodejs/issues"
+    },
+    "homepage": "https://github.com/jiatonglingit/typeScript-nodejs#readme",
+    "devDependencies": {
+        "@types/request": "^2.48.5"
+    },
+    "dependencies": {
+        "@types/lodash": "^4.14.170",
+        "lodash": "^4.17.21",
+        "request": "^2.88.2"
+    }
+}
